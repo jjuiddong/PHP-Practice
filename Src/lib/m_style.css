@@ -1,0 +1,7 @@
+BODY,TABLE,TR,TD,td,SELECT,input,DIV,form,TEXTAREA,center,option,pre,blockquote
+{font-size:10pt; font-family:돋음,굴림,sans-serif,Arial; color:#575656; line-height:120%}
+
+A:link {font-family:돋음,굴림,sans-serif,Arial; font-size:9pt; color:#056F9B; text-decoration:none; }
+A:visited  {font-family:돋음,굴림,sans-serif,Arial; font-size:9pt; color:#056F9B; text-decoration:none; }
+A:active {font-family:돋음,굴림,sans-serif,Arial; font-size:9pt; color:#575656; text-decoration:none; }
+A:hover {font-family:돋음,굴림,sans-serif,Arial; font-size:9pt; color:#575656; text-decoration:none; }
