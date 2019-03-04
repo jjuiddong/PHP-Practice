@@ -1,0 +1,37 @@
+{
+  "name": "atkjs-ui",
+  "version": "1.6.0",
+  "description": "Agile Toolkit Javascript library.",
+  "main": "lib/atkjs-ui.js",
+  "scripts": {
+    "build": "webpack --env.production",
+    "dev": "webpack --progress --colors --watch --env.development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atk4/ui/tree/develop/js"
+  },
+  "author": "Agile Toolkit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atk4/ui/issues"
+  },
+  "homepage": "http://www.agiletoolkit.org/",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.9.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "column-resizer": "^1.1.2",
+    "debounce": "^1.1.0",
+    "locutus": "^2.0.9"
+  }
+}
